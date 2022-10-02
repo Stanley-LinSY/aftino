@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="100dp"
+            android:paddingLeft="60px"
+            android:paddingRight="60px"
+            app:srcCompat="@mipmap/aftino_ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Aftino is a real estate marketplace mobile app to make shopping for home a swift and enjoyable process. It offers placement of AR furniture during the physical home tour. It does so by using Google ARCore."
+            android:textSize="24dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

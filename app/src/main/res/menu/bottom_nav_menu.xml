@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/reallist"
+        android:icon="@drawable/ic_baseline_view_list_24"
+        android:title="List" />
+    <item
+        android:id="@+id/realdetail"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="Details" />
+    <item
+        android:id="@+id/realar"
+        android:icon="@drawable/ic_baseline_control_camera_24"
+        android:title="AR" />
+</menu>
