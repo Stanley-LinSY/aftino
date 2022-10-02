@@ -34,7 +34,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAsoqLkkrVrjZZnGk_e047DxkS7xwr2VOw"/>
+            android:value="AIz..."/>
 
         <meta-data android:name="com.google.ar.core"
             android:value="required" />
